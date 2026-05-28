@@ -16,7 +16,7 @@
 
 ## What is VB.NET?
 
-**VB.NET** was introduced as part of Microsoft’s .NET initiative, providing a modern programming model with features like garbage collection, exception handling, and full object-oriented programming support. While primarily used in legacy systems, VB.NET remains a robust tool for maintaining and updating existing applications.
+**VB.NET** refers to Microsoft Visual Basic as it evolved on the .NET platform. It brought the classic Visual Basic model into the managed .NET world with garbage collection, exception handling, modern object-oriented support, and access to the full .NET class library. Today the language is usually called Visual Basic, and Microsoft maintains it as a stable, compatibility-first language for modern .NET applications and legacy modernization.
 
 ---
 
@@ -41,21 +41,20 @@
 
 ## Timeline: VB.NET Versions and Milestones
 
-| **Year** | **Version**              | **Key Features and Milestones**                                  |
-|----------|--------------------------|------------------------------------------------------------------|
-| **2002** | **VB.NET 7.0**           | - First release as part of .NET Framework 1.0.<br>- Introduced object-oriented capabilities. |
-| **2003** | **VB.NET 7.1**           | - Enhanced support for .NET Framework 1.1.<br>- Improved ASP.NET integration. |
-| **2005** | **VB.NET 8.0**           | - Part of .NET Framework 2.0.<br>- Introduced generics and My namespace for rapid development. |
-| **2008** | **VB.NET 9.0**           | - Introduced LINQ and XML Literals.<br>- Part of .NET Framework 3.5. |
-| **2010** | **VB.NET 10.0**          | - Dynamic language features added.<br>- Part of .NET Framework 4.0. |
-| **2012** | **VB.NET 11.0**          | - Async/await introduced for asynchronous programming.<br>- Enhanced Visual Studio integration. |
-| **2015** | **VB.NET 14.0**          | - IDE improvements and enhanced debugging tools.<br>- Part of .NET Framework 4.6. |
-| **2017** | **VB.NET 15.0**          | - Added support for .NET Core.<br>- Enhanced performance and tooling. |
-| **2020** | **VB.NET for .NET 5**    | - Compatibility with .NET 5.<br>- Enabled development of Class Libraries, Console Applications, Windows Forms, WPF, Worker Services, and ASP.NET Core Web APIs.<br>- No new language features introduced but focused on enabling VB.NET to work seamlessly within the .NET 5 ecosystem. |
-| **2019** | **VB.NET 16.0**          | - Support for .NET Core 3.x.<br>- Introduced nullable reference types.<br>- Enhanced async streams and ranges. |
-| **2021** | **VB.NET 16.9**          | - Enabled consumption of `init-only` properties.<br>- Continued focus on .NET Core support. |
-| **2023** | **VB.NET 16.x**          | - Improved performance and reliability.<br>- Support for .NET 6 (LTS).<br>- Introduction of new productivity features and tooling enhancements. |
-| **2025** | **VB.NET 17.x**          | - Enhanced integration with the latest .NET versions.<br>- New language features aimed at improving developer productivity.<br>- Ongoing support for modern application development paradigms. |
+| **Year** | **Version** | **Key Features and Milestones** |
+|----------|-------------|---------------------------------|
+| **2002** | **VB 7.0**  | - First VB release on .NET Framework 1.0.<br>- Introduced managed code, CLR execution, and true object-oriented programming. |
+| **2003** | **VB 7.1**  | - .NET Framework 1.1 support.<br>- Improved IDE/compiler reliability and Compact Framework support. |
+| **2005** | **VB 8.0**  | - .NET Framework 2.0 support.<br>- Added generics, partial classes, operator overloading, nullable types, and the My namespace. |
+| **2008** | **VB 9.0**  | - .NET Framework 3.5 support.<br>- Introduced LINQ, XML literals, anonymous types, extension methods, and lambda expressions. |
+| **2010** | **VB 10.0** | - .NET Framework 4.0 support.<br>- Improved line continuation, inline lambdas, and better dynamic object interoperability. |
+| **2012** | **VB 11.0** | - .NET Framework 4.5 support.<br>- Added async/await, iterators, caller info, and richer asynchronous programming support. |
+| **2013** | **VB 12.0** | - .NET Framework 4.5.1 support.<br>- Minor language refinements and tighter IDE integration. |
+| **2015** | **VB 14.0** | - Visual Studio 2015 / .NET Framework 4.6.<br>- Introduced null-conditional operators, string interpolation, and productivity improvements. |
+| **2017** | **VB 15.x** | - Visual Studio 2017 / .NET Standard support.<br>- Focused on compatibility, refactorings, and language stability. |
+| **2019** | **VB 16.x** | - Visual Studio 2019 / .NET Core 3.x and .NET 5 support.<br>- Continued compatibility-first evolution; `init-only` properties were added in 16.9. |
+| **2022** | **VB 17.0** | - Visual Studio 2022 / .NET 7 support.<br>- Reaffirmed VB as a stable language with long-term compatibility goals. |
+| **2025** | **VB 17.13** | - Modern maintenance release supporting .NET 8 and .NET 9 runtimes.<br>- Added unmanaged generic constraints and overload resolution priority support. |
 
 ---
 
@@ -74,9 +73,10 @@
 
 ## Supported Platforms
 
-- **Languages**: VB.NET.
-- **Frameworks**: .NET Framework, .NET Core, .NET 5+.
-- **Applications**: Windows Forms, WPF, ASP.NET, console applications.
+- **Language**: Visual Basic (formerly branded VB.NET).
+- **Frameworks**: .NET Framework, .NET Core, .NET 5, .NET 6, .NET 7, .NET 8+.
+- **Applications**: Windows Forms, WPF, console applications, class libraries, and ASP.NET Core services where Visual Basic is supported.
+- **Workload focus**: Stable maintenance, compatibility with existing VB code, and modernization of desktop and library workloads rather than new experimental language workloads.
 
 ---
 
@@ -93,6 +93,9 @@
 3. **Integration with .NET**:  
    - Leverages the power of the .NET ecosystem for modern application requirements.
 
+4. **Stable Language Strategy**:  
+   - Microsoft now treats Visual Basic as a stable, compatibility-focused language with ongoing maintenance and compatibility support for newer .NET runtimes.
+
 ### **Challenges**
 
 1. **Limited Modern Adoption**:  
@@ -101,13 +104,16 @@
 2. **Legacy Code Complexity**:  
    - Older VB.NET applications can be difficult to refactor for modern standards.
 
+3. **Workload Scope**:  
+   - Visual Basic is best suited for existing app modernization, desktop apps, and libraries rather than brand-new cloud-first workloads.
+
 ---
 
 ## Takeaways
 
-- VB.NET is a vital tool for maintaining legacy systems while still capable of modern application development.
-- Its integration with the .NET ecosystem ensures continued relevance for existing applications.
-- Developers looking to transition from VB.NET can leverage shared .NET libraries and tools for cross-language compatibility.
+- VB.NET / Visual Basic remains a valuable choice for maintaining and modernizing legacy .NET apps.
+- Its integration with the .NET ecosystem ensures compatibility with modern runtimes, libraries, and tooling.
+- Developers can continue to leverage shared .NET libraries, Visual Studio support, and cross-language interoperability while preserving existing VB assets.
 
 ---
 
