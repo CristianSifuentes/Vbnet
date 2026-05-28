@@ -1,6 +1,6 @@
 # VB.NET: A Language for Legacy and Modern Applications
 
-![VB.NET Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/256px-VB.NET_Logo.svg.png)
+![Visual Basic logo](https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg)
 
 ## Table of Contents
 
